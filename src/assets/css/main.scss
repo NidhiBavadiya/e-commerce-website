@@ -1,0 +1,39 @@
+html {
+    body {
+        overflow-x: hidden;
+
+        .h310 {
+            height: 310px;
+        }
+
+        .product-title {
+            height: 64px;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+
+        .cbtn {
+            .btn {
+                margin: 10px;
+                border: none;
+                border-radius: 0;
+                background-color: rgb(228, 228, 230);
+                color: black;
+
+                // &:hover{
+                    
+                // }
+            }
+            .active{
+                background-color:black;
+                color:  rgb(228, 228, 230);
+            }
+           
+            input{
+                display: none;
+            }
+        }
+    }
+}

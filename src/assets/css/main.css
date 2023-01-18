@@ -1,0 +1,26 @@
+html body {
+  overflow-x: hidden;
+}
+html body .h310 {
+  height: 310px;
+}
+html body .product-title {
+  height: 64px;
+}
+html body .card-body {
+  padding: 0;
+}
+html body .cbtn .btn {
+  margin: 10px;
+  border: none;
+  border-radius: 0;
+  background-color: rgb(228, 228, 230);
+  color: black;
+}
+html body .cbtn .active {
+  background-color: black;
+  color: rgb(228, 228, 230);
+}
+html body .cbtn input {
+  display: none;
+}/*# sourceMappingURL=main.css.map */

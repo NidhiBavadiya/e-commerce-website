@@ -1,0 +1,193 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "availableSizes": [
+                "S",
+                "XL",
+                "XXL"
+            ],
+            "size":"S,XL,XXL",
+            "title": "Mens Casual Premium Slim Fit T-Shirts ",
+            "installments": 9,
+            "style": "White T-shirt",
+            "price": 22.3,
+            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+            "FreeShipping": false
+        },
+        {
+            "id": 2,
+            "title": "Mens Cotton Jacket",
+            "price": 55.99,
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+              
+            ],
+            "size":"S,M,L",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+            "FreeShipping": true
+        },
+        {
+            "id": 3,
+            "title": "Mens Casual Slim Fit",
+            "price": 15.99,
+            "availableSizes": [
+                "S"
+               
+            ],
+            "size":"S",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+            "FreeShipping": true
+        },
+        {
+            "id": 4,
+            "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+            "price": 56.99,
+            "availableSizes": [
+                "S",
+                "L",
+                "XL" 
+            ],
+            "size":"S,L,XL",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+            "FreeShipping": false
+        },
+        {
+            "id": 5,
+            "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+            "price": 29.95,
+            "availableSizes": [
+                
+                "L",
+                "XL"
+               
+            ],
+            "size":"L,XL",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+            "FreeShipping": true
+        },
+        {
+            "id": 6,
+            "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+            "price": 39.99,
+            "availableSizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+                
+            ],
+            "size":"S,M,L,XL",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+            "FreeShipping": true
+        },
+        {
+            "id": 7,
+            "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+            "price": 9.85,
+            "availableSizes": [
+
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "size":"L,XL,XXL",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+            "FreeShipping": false
+        },
+        {
+            "id": 8,
+            "title": "Opna Women's Short Sleeve Moisture",
+            "price": 7.95,
+            "availableSizes": [
+                "S",
+                "M"
+              
+            ],
+            "size":"S,M",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+            "FreeShipping": false
+        },
+        {
+            "id": 9,
+            "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+            "price": 12.99,
+            "availableSizes": [
+                "S",
+                "L",
+                "XL"
+               
+            ],
+            "size":"S,L,XL",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+            "FreeShipping": true
+        },
+        {
+            "id": 10,
+            "availableSizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "size":"S,M,L,XL,XXL",
+            "title": "Mens Casual Premium Slim Fit T-Shirts ",
+            "installments": 9,
+            "style": "White T-shirt",
+            "price": 22.3,
+            "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+            "FreeShipping": false
+        },
+        {
+            "id": 11,
+            "title": "Mens Cotton Jacket",
+            "price": 55.99,
+            "availableSizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "size":"S,M,L,XL,XXL",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+            "FreeShipping": true
+        },
+        {
+            "id": 12,
+            "title": "Mens Casual Slim Fit",
+            "price": 15.99,
+            "availableSizes": [
+                "S",
+                "M",
+                "L"
+            ],
+            "size":"S,M,L",
+            "installments": 9,
+            "style": "White T-shirt",
+            "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+            "FreeShipping": false
+        }
+    ]
+}
