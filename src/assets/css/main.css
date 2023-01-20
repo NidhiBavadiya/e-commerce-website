@@ -10,6 +10,16 @@ html body .product-title {
 html body .card-body {
   padding: 0;
 }
+html body .card-body .cartbtn {
+  background: black;
+  color: white;
+  width: 100%;
+}
+html body .card-body .btnActive {
+  background: rgb(216, 163, 27);
+  color: black;
+  width: 100%;
+}
 html body .cbtn .btn {
   margin: 10px;
   border: none;
