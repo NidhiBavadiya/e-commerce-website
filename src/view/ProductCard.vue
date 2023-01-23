@@ -2,15 +2,16 @@
 <template>
   <div>
     <!-- cart icon button -->
-    <show-cart :isActive="showCart" :carts="carts"></show-cart>
+    <show-cart s_id="side" :isActive="showCart" :carts="carts"></show-cart>
     <b-row class="justify-content-end">
       <b-col md="1" class="mt-3">
         <div class="position-relative">
-          <b-button @click="displayCart" variant="dark" class="w-75 p-3">
+          <b-button v-b-toggle.side variant="dark" class="w-75 p-3">
             <b-badge
-              variant="light"
+              variant="warning"
               class="position-absolute top-0 right-0 bg-light text-dark"
-              >1</b-badge
+              v-if="carts.length > 0"
+              >{{ carts.length }}</b-badge
             >
             <b-icon icon="cart4" class="m-0" aria-hidden="true"></b-icon>
           </b-button>
@@ -66,7 +67,9 @@
               <p class="text-center">{{ product.size }}</p>
               <p class="text-center">{{ product.price }}</p>
               <p class="text-center">or 5*$5.89</p>
-              <b-button class="cartbtn" @click="addToCart(product)">Add To Cart</b-button>
+              <!-- <b-button class="cartbtn" @click="addToCart(product)">{{ product.cart==true ? 'Buy Now':'Add To Cart' }}</b-button> -->
+              <b-button class="btnActive" v-if="product.cart==true">Buy Now</b-button>
+              <b-button class="cartbtn" v-else @click="addToCart(product)">Add To Cart</b-button>
             </b-card>
           </b-col>
         </b-row>
@@ -189,12 +192,9 @@ export default {
     },
     addToCart(id) {
       console.log("id_data",id);
+      id.cart = true; 
       this.carts.push(id)
       console.log("carts",this.carts);
-      
-    },
-    displayCart() {
-      this.showCart = !this.showCart;
     },
   },
 };

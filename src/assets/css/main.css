@@ -20,6 +20,10 @@ html body .card-body .btnActive {
   color: black;
   width: 100%;
 }
+html body .card-body .s_size {
+  padding: 23px 0 0 0;
+  margin: 0 auto;
+}
 html body .cbtn .btn {
   margin: 10px;
   border: none;
@@ -33,4 +37,12 @@ html body .cbtn .active {
 }
 html body .cbtn input {
   display: none;
+}
+html body .b-sidebar > .b-sidebar-header .close {
+  border: none;
+}
+html body .b-sidebar-outer .b-sidebar-body .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+  margin: 5px;
 }/*# sourceMappingURL=main.css.map */

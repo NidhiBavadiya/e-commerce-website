@@ -1,38 +1,33 @@
 <template>
   <div>
-    <!-- <b-button v-b-toggle.sidebar-border>Toggle Sidebar</b-button> -->
-    <b-sidebar id="sidebar-border" sidebar-class="border-right border-danger" :visible = "isActive">
+    <b-sidebar :id="s_id" sidebar-class="border-right border-danger" :visible = "isActive">
      
-      <b-row>
+      <b-row v-if="carts.length > 0">
           <b-col
             cols="12"
-            class="mt-4"
             v-for="cart in carts" :key="cart.id"
           >
       <b-card class="position-relative p-3" id="productcard">
         <b-row>
-          <b-col>
+          <b-col cols="4">
               <b-img
               :src="cart.image"
-                class="h310"
+                class="s_size"  
                 fluid
                 alt="Responsive image"
               ></b-img>
             </b-col>
-            <b-col cols="4">
+            <b-col cols="8">
               <p class="fw-bold">{{ cart.title }}</p>
               <p class="">{{ cart.size }}</p>
               <p class="">{{ cart.price }}</p>
+              <b-button @click="deleteCart(cart)" class="mt-4" variant="dark">Remove From Cart</b-button>
             </b-col>
-             </b-row>
-             <b-row>
-              <b-col>
-                <b-button @click="deleteCart(id)" dark>Delete</b-button>
-              </b-col>
-             </b-row>
+            </b-row>
             </b-card>
             </b-col>
             </b-row>
+            <b-row v-else> <h3 class="text-center mt-5">Cart is Empty</h3></b-row>
     </b-sidebar>
   </div>
 </template>
@@ -49,6 +44,7 @@ export default {
     BCol
   },
   props: {
+    s_id:String,
     carts:Array,
   isActive: {
       type: Boolean,
@@ -63,10 +59,10 @@ export default {
     }
   },
   methods:{
-    deleteCart(id){
-      console.log("dalete",id);
-      this.carts.splice(id, 1);
-      console.log(id);
+    deleteCart(item){
+      console.log("dalete",item);
+      this.carts.splice(item, 1);
+      item.cart = false
     }
   }
 };

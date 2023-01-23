@@ -25,6 +25,11 @@ html {
                 width: 100%;
             }
 
+            .s_size {
+                padding: 23px 0 0 0;
+                margin: 0 auto;
+            }
+
         }
 
         .cbtn {
@@ -34,10 +39,6 @@ html {
                 border-radius: 0;
                 background-color: rgb(228, 228, 230);
                 color: black;
-
-                // &:hover{
-
-                // }
             }
 
             .active {
@@ -47,6 +48,20 @@ html {
 
             input {
                 display: none;
+            }
+        }
+
+        .b-sidebar>.b-sidebar-header .close {
+            border: none;
+        }
+
+        .b-sidebar-outer {
+            .b-sidebar-body {
+                .card {
+                    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+                    border: none;
+                    margin: 5px;
+                }
             }
         }
 
